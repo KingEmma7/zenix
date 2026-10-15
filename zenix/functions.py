@@ -264,9 +264,6 @@ def generate_noise(
     """
     Generate selected noise type with fade-in and smoothing.
 
-    Randomness is isolated from NumPy's global random state. Pass a seed for
-    reproducible output; None uses fresh entropy for each call.
-
     :param noise_type: white | pink | brown | blue
     :param duration: Duration in seconds
     :param sample_rate: Sample rate
